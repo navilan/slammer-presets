@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>2A41855D-1DEB-4116-8C8D-B6AEA30ABEF2</UUID>
+        <nextObjectID>104</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>186</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Grid</key>
+                        <data>
+		RXigWzI6NmNobmXPufPq8a9S88e81krekfG8eDPCCOE=
+		</data>
+                        <key>Ruler</key>
+                        <data>
+		xYvylUiEgIZjwsxJLjDngJCuw7lyNL/nveh+PfHfxqo=
+		</data>
+                        <key>Slam</key>
+                        <data>
+		yOmjv9gE7YrOc1DbLyAbv7XAKeauiqp0jG0flVyPRE8=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SLAM" id="z102">
+        <attribute name="slamwidth" type="int32">970</attribute>
+        <attribute name="slamname" type="string">960-gs-16</attribute>
+        <attribute name="slamheight" type="int32">800</attribute>
+        <attribute name="slamcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAU8QJjAuNDY2NjY2NjcgMC44MDAwMDAwMSAwLjQwMDAwMDAxIDAuMzEA0hQVFhdYJGNsYXNzZXNaJGNsYXNzbmFtZaIXGFdOU0NvbG9yWE5TT2JqZWN0CBEaHykyNzo/QVNXXWRreH6AgquwucTHzwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADY
+</attribute>
+        <relationship name="grids" type="0/0" destination="GRID" idrefs="z103 z104"></relationship>
+    </object>
+    <object type="GRID" id="z103">
+        <attribute name="show" type="bool">1</attribute>
+        <attribute name="rowheight" type="int32">0</attribute>
+        <attribute name="columnwidth" type="int32">960</attribute>
+        <attribute name="barwidth" type="int32">10</attribute>
+        <attribute name="barcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAU8QHTEgMC4yNzAxMTQyNCAwLjA5MjAyNTg3NiAwLjUA0hQVFhdYJGNsYXNzZXNaJGNsYXNzbmFtZaIXGFdOU0NvbG9yWE5TT2JqZWN0CBEaHykyNzo/QVNXXWRreH6AgqKnsLu+xgAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADP
+</attribute>
+        <relationship name="slam" type="1/1" destination="SLAM" idrefs="z102"></relationship>
+    </object>
+    <object type="GRID" id="z104">
+        <attribute name="show" type="bool">1</attribute>
+        <attribute name="columnwidth" type="int32">60</attribute>
+        <attribute name="barwidth" type="int32">20</attribute>
+        <attribute name="barcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAU8QHDAuNjAyNDM4NDUgMC43NjA0MTQ5NiAxIDAuNQDSFBUWF1gkY2xhc3Nlc1okY2xhc3NuYW1lohcYV05TQ29sb3JYTlNPYmplY3QIERofKTI3Oj9BU1ddZGt4foCCoaavur3FAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAAM4=
+</attribute>
+        <relationship name="slam" type="1/1" destination="SLAM" idrefs="z102"></relationship>
+    </object>
+</database>
