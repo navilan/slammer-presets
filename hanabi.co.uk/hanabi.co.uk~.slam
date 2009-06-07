@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>BE45A326-D358-4016-AEEE-5E143612096A</UUID>
+        <nextObjectID>105</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>186</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Grid</key>
+                        <data>
+		RXigWzI6NmNobmXPufPq8a9S88e81krekfG8eDPCCOE=
+		</data>
+                        <key>Ruler</key>
+                        <data>
+		xYvylUiEgIZjwsxJLjDngJCuw7lyNL/nveh+PfHfxqo=
+		</data>
+                        <key>Slam</key>
+                        <data>
+		yOmjv9gE7YrOc1DbLyAbv7XAKeauiqp0jG0flVyPRE8=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="GRID" id="z102">
+        <attribute name="show" type="bool">1</attribute>
+        <attribute name="rowheight" type="int32">16</attribute>
+        <attribute name="barwidth" type="int32">1</attribute>
+        <attribute name="barcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAk8QGDEgMC4zMjE1Njg2NCAwLjI3ODQzMTM5ANIUFRYXWCRjbGFzc2VzWiRjbGFzc25hbWWiFxhXTlNDb2xvclhOU09iamVjdAgRGh8pMjc6P0FTV11ka3h+gIKdoqu2ucEAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAAyg==
+</attribute>
+        <relationship name="slam" type="1/1" destination="SLAM" idrefs="z105"></relationship>
+    </object>
+    <object type="GRID" id="z103">
+        <attribute name="show" type="bool">1</attribute>
+        <attribute name="rowheight" type="int32">64</attribute>
+        <attribute name="barwidth" type="int32">16</attribute>
+        <attribute name="barcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAk8QIzEgMC43NTI5NDEyNSAwLjc0MTE3NjQ5IDAuNDMwMDAwMDEA0hQVFhdYJGNsYXNzZXNaJGNsYXNzbmFtZaIXGFdOU0NvbG9yWE5TT2JqZWN0CBEaHykyNzo/QVNXXWRreH6AgqittsHEzAAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADV
+</attribute>
+        <relationship name="slam" type="1/1" destination="SLAM" idrefs="z105"></relationship>
+    </object>
+    <object type="GRID" id="z104">
+        <attribute name="show" type="bool">1</attribute>
+        <attribute name="columnwidth" type="int32">80</attribute>
+        <attribute name="barwidth" type="int32">14</attribute>
+        <attribute name="barcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAUoxIDEgMSAwLjUA0hQVFhdYJGNsYXNzZXNaJGNsYXNzbmFtZaIXGFdOU0NvbG9yWE5TT2JqZWN0CBEaHykyNzo/QVNXXWRreH6Ago2Sm6apsQAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC6
+</attribute>
+        <relationship name="slam" type="1/1" destination="SLAM" idrefs="z105"></relationship>
+    </object>
+    <object type="SLAM" id="z105">
+        <attribute name="slamwidth" type="int32">974</attribute>
+        <attribute name="slamname" type="string">hanabi.co.uk</attribute>
+        <attribute name="slamheight" type="int32">896</attribute>
+        <attribute name="slamcolor" type="encodable">YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEH
+CFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKjCwwTVSRudWxs0w0ODxARElYkY2xhc3NcTlNDb2xvclNwYWNlVU5TUkdCgAIQAk8QIzEgMC43NTI5NDEyNSAwLjc0MTE3NjQ5IDAuMzg5OTk5OTkA0hQVFhdYJGNsYXNzZXNaJGNsYXNzbmFtZaIXGFdOU0NvbG9yWE5TT2JqZWN0CBEaHykyNzo/QVNXXWRreH6AgqittsHEzAAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAADV
+</attribute>
+        <relationship name="grids" type="0/0" destination="GRID" idrefs="z104 z102 z103"></relationship>
+    </object>
+</database>
